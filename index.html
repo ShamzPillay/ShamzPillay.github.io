@@ -1,14 +1,182 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Shamz Pillay GitHub Page</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shamlen Pillay Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+
 </head>
 <body>
-    <h1>Hello! Welcome to My Page.</h1>
+    <header>
+        <div class="logo">
+            <img src="img/devshamlen.png" alt="" />
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Shamlen Pillay</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <img src="img/dev-shamlen-01.jpg" alt="A picture of Shamlen Pillay" class="intro__img" />
+    </section>
+
+
+    <!-- My Services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Design + Development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, autem voluptates! Voluptates,
+                    provident voluptatibus laboriosam repellendus hic eos a sint temporibus iusto. Reprehenderit
+                    quia sunt veniam suscipit numquam maiores perspiciatis.
+                </p>
+            </div>  <!-- </div>  service -->
+
+            <div class="service">
+                <h3>E-Commerce</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, autem voluptates! Voluptates,
+                    provident voluptatibus laboriosam repellendus hic eos a sint temporibus iusto. Reprehenderit
+                    quia sunt veniam suscipit numquam maiores perspiciatis.
+                </p>
+            </div>  <!-- </div>  service -->
+
+            <div class="service">
+                <h3>WordPress</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, autem voluptates! Voluptates,
+                    provident voluptatibus laboriosam repellendus hic eos a sint temporibus iusto. Reprehenderit
+                    quia sunt veniam suscipit numquam maiores perspiciatis.
+                </p>
+            </div>  <!-- </div>  service -->
+        </div>  <!-- </div>  services -->
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+
+    <!-- About Me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Designer & developer based out of Cape Town</p>
+
+        <div class="about-me__body">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum excepturi impedit harum illum ducimus exercitationem quaerat quisquam, sequi ad et qui cumque animi, voluptate sit debitis dolorem officia! Animi, illo!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae illum corporis quidem. Velit molestiae saepe quis soluta veritatis. Aliquam culpa ab sequi eaque nihil. Consectetur quae dolorem deserunt necessitatibus inventore.</p>
+        </div>
+
+        <img src="img/dev-shamlen-02.jpg" alt="Shamlen leaning against a wall" class="about-me__img" />
+    </section>
+
+
+    <!-- My Work -->
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+            <!-- Portfolio Item 01 -->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/portfolio-01.png" alt="" class="portfolio__img" />
+            </a>
+
+            <!-- Portfolio Item 02 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-02.png" alt="" class="portfolio__img" />
+            </a>
+
+            <!-- Portfolio Item 03 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-03.png" alt="" class="portfolio__img" />
+            </a>
+
+            <!-- Portfolio Item 04 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-04.png" alt="" class="portfolio__img" />
+            </a>
+
+            <!-- Portfolio Item 05 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-05.png" alt="" class="portfolio__img" />
+            </a>
+
+            <!-- Portfolio Item 06 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-06.png" alt="" class="portfolio__img" />
+            </a>
+
+            <!-- Portfolio Item 07 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-07.png" alt="" class="portfolio__img" />
+            </a>
+
+            <!-- Portfolio Item 08 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-08.png" alt="" class="portfolio__img" />
+            </a>
+
+            <!-- Portfolio Item 09 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-09.png" alt="" class="portfolio__img" />
+            </a>
+
+            <!-- Portfolio Item 10 -->
+            <a href="#" class="portfolio__item">
+                <img src="img/portfolio-10.png" alt="" class="portfolio__img" />
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <a href="mailto:heyydudetech@gmail.com" class="footer__link">heyydudetech@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a href="https://twitter.com" class="social-list__link">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://github.com" class="social-list__link">
+                    <i class="fab fa-github-square"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://facebook.com" class="social-list__link">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a href="https://instagram.com" class="social-list__link">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+
 </body>
 </html>
